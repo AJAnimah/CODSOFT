@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #050A30;
+    line-height: 1.6;
+}
+
+#banner {
+    background-image: url('../img/bg5.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 1.25rem;
+}
+
+.logo {
+    width: 250px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .navlink {
+    color: #050A30;
+    text-decoration: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.button {
+    font-size: 16px;
+    text-decoration: none;
+    border: #56BD16 1px solid;
+    padding: 5px 15px;
+    border-radius: 12px;
+    color: #050A30;
+    margin-right: 5rem;
+}
+
+.button:hover {
+    background-color: #56BD16;
+    color: white;
+}
+
+.flex_direction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.text_1 {
+    color: #56BD16;
+    font-size: 30px;
+    line-height: 1.2;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.text_2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.light-font {
+    font-weight: lighter;
+}
+
+.custom-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-button {
+    background-color: #56BD16;
+    border-radius: 12px;
+    padding: 5px 15px;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 16px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    color: #fff;
+    text-decoration: none;
+}
+
+.custom-button:hover {
+    background-color: transparent;
+    border-color: #56BD16;
+    color: #050A30;
+}
+
+.custom-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.custom-arrow {
+    font-size: 1.125rem;
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 20px;
+    margin: 100px auto;
+    max-width: 1200px;
+}
+
+.row h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.About_img {
+    flex: 1;
+    max-width: 45%;
+    margin: 10px;
+    text-align: center;
+}
+
+.About_img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text {
+    flex: 2;
+    max-width: 45%;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.container {
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 250px;
+    margin: 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.section_contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 1200px;
+}
+
+.section_contact h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section_contact p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section_contact .form {
+    flex: 1;
+    max-width: 45%;
+    padding: 12px 20px;
+    margin: 10px;
+}
+
+.section_contact .form input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.section_contact .form button[type=button] {
+    background-color: #56BD16;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 15px;
+    border: #56BD16 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.section_contact .form button[type=button]:hover {
+    background-color: #050A30;
+}
+
+.section_contact .imagemap {
+    flex: 1;
+    max-width: 45%;
+    margin: 10px;
+}
+
+.section_contact .imagemap img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#transparent {
+    background-image: url('../img/abtus1.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+#transparent h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+#transparent .learn-button {
+    font-size: 16px;
+    text-decoration: none;
+    border: #56BD16 1px solid;
+    padding: 5px 15px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+#transparent .learn-button:hover {
+    background-color: #56BD16;
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #050A30;
+}
+
+.footer p {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.footer img {
+    width: 150px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .row,
+    .forms,
+    .section_contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About_img,
+    .text,
+    .forms form,
+    .forms .imagemap,
+    .section_contact .form,
+    .section_contact .imagemap {
+        max-width: 100%;
+    }
+
+    .text,
+    .section_contact .form {
+        margin-top: 20px;
+    }
+
+    .forms form,
+    .section_contact .form {
+        margin-bottom: 20px;
+    }
+
+    .flex_direction {
+        padding: 0 10px;
+    }
+
+    .text_1 {
+        font-size: 24px;
+    }
+
+    .text_2 {
+        font-size: 32px;
+    }
+
+    .custom-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .custom-button,
+    .custom-link {
+        margin-bottom: 10px;
+    }
+
+    .custom-link {
+        font-size: 16px;
+    }
+}
+
+
+
